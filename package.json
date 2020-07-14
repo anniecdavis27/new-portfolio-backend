@@ -1,0 +1,24 @@
+{
+  "name": "new-portfolio-backend",
+  "version": "1.0.0",
+  "description": "backend server for portfolio works page",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anniecdavis27/new-portfolio-backend.git"
+  },
+  "author": "Annie Davis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anniecdavis27/new-portfolio-backend/issues"
+  },
+  "homepage": "https://github.com/anniecdavis27/new-portfolio-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.24"
+  }
+}
