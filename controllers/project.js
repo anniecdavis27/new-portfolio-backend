@@ -18,6 +18,14 @@ router.get('/', (req, res) => {
     })
 });
 
+router.get('/:id', (req, res) => {
+    Projects.findById(req.params.id , (err, project) => {
+        if (err) console.log(err)
+        else res.send(project)
+    });
+});
+
+
 router.post('/', (req, res) => {
     Projects.create(req.body, (error, createdProject) => {
         res.send(createdProject);
